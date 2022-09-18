@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/movie-show-svelte/favicon.png" />
+		<link rel="stylesheet" href="/movie-show-svelte/global.css" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/movie-show-svelte/_app/immutable/start-bc226fd6.js">
+	<link rel="modulepreload" href="/movie-show-svelte/_app/immutable/chunks/index-28fe7da1.js">
+	<link rel="modulepreload" href="/movie-show-svelte/_app/immutable/chunks/singletons-5f41a347.js">
+	<link rel="modulepreload" href="/movie-show-svelte/_app/immutable/chunks/index-e07d763a.js">
+	</head>
+	<body>
+		<div>
+		<script type="module" data-sveltekit-hydrate="45h">
+		import { start } from "/movie-show-svelte/_app/immutable/start-bc226fd6.js";
+
+		start({
+			env: {},
+			hydrate: null,
+			paths: {"base":"/movie-show-svelte","assets":"/movie-show-svelte"},
+			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+			trailing_slash: "never"
+		});
+	</script></div>
+	</body>
+</html>
